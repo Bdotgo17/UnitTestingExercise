@@ -1,7 +1,7 @@
 ﻿using System;
 namespace UnitTestingExercise
 {
-    public class Calculator
+    public class UnitTestMethods
     {
         // Step 1: Add a reference to your UnitTestingExercise project:
 
@@ -12,9 +12,9 @@ namespace UnitTestingExercise
 
         // Step 2: Create an Add method that accepts 3 integers, adds those integers, and returns an integer
         //For Example:
-        public int Add(int num1, int num2, int num3)
+        public int Add(int one, int two, int three)
         {
-            return num1 + num2 + num3;
+            return one + two + three;
         }
 
 
@@ -23,6 +23,10 @@ namespace UnitTestingExercise
 
         // Step 4: 
         // Create a Subtract method that accepts 2 integers
+        public int Subract(int minuend, int subtrhend)
+        {
+            return minuend - subtrhend;
+        }
         // Keep track of which number is getting passed as minuend and subtrahend
 
 
@@ -31,13 +35,20 @@ namespace UnitTestingExercise
 
         // Step 6: 
         // Create a Multiply method that passes 2 integers
-
+        public int Multiply(int one, int two)
+        {
+            return one * two;
+        }
 
         // Step 7: Navigate to the UnitTests.cs file and complete the MultiplyTest unit test method 
 
 
         // Step 8: 
         // Create a Divide method that passes 2 integers
+        public int Divide(int one, int two)
+        {
+            return one / two;
+        }
 
         // Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method 
 
